@@ -13,10 +13,10 @@ n = st.number_input("Enter an integer", value = 1, step =1)
 
 square = n**2
 cube = n**3
-fourth_power = n**4
+fifth_power = n**4
 
 # Display results
 
 st.write(f"The sqaure of {n} is: {square}")
 st.write(f"The cube of {n} is: {cube}")
-st.write(f"The fourth power of {n} is: {fourth_power}")
+st.write(f"The fifth power of {n} is: {fifth_power}")
